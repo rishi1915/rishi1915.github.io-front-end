@@ -1,0 +1,386 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+  }
+  body{
+    font-family:  'Poppins','Roboto',Arial, Helvetica,sans-serif;
+    background-color: white;
+  }
+  
+  .nav-bar{
+    background: white;
+    padding-left: 0px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.418);
+    height: 60px;
+    width: 100%;
+  }
+  label.logo{
+    color: black;
+    font-size: 30px;
+    line-height: 60px;
+    padding: 0 20px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: black;
+    font-size: 14px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.nav-btns:hover{
+    background: black;
+    color:white;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  .body-sec{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .para-text,.s1-text{
+    margin-left:10%;
+  }
+  a:hover{
+    color:white;
+  }
+  .body-sec{
+    margin-top: 15px;
+    line-height: 1.3;
+  }
+  .s1{
+    padding-top: 10px;
+  }
+  .s1-text{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  #img1{
+    width:95%;
+    align:center;
+    overflow:visible;
+    border-radius: 10px;
+    margin:10px 0px 10px 0px;
+  }
+  .para-text{
+    font-size: 15px;
+    line-height: 1.3;
+    padding-top: 10px;
+  }
+  .s3{
+    padding-top: 80px;
+  }
+  .s4-para{
+    font-size: 10px;
+  }
+  .input{
+background-color:whitesmoke;
+margin-left:10%;
+width:310px;
+height:50px;
+border-radius:10px;
+margin-top: 10px;
+padding: 5px;
+  }
+  #email-input{
+    /* background-color: rgb(201, 201, 201);*/
+    color: rgb(212, 156, 156);
+    border-radius: 8px;
+    border:none;
+    height:35px;
+    width:240px;
+    background-color: whitesmoke;
+  }
+  #send-btn{
+    background-color: rgb(105, 180, 223);
+    width: 54px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+  }
+  #send-btn:hover{
+    transform: scale(1.1);
+  }
+  #s2-para{
+    font-size: 20px;
+  }
+  #s3-para{
+    font-size: 20px;
+  }
+  .s2-container{
+    display:flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+  .but{
+    width: 100px;
+    height:25px;
+    background-color: gray;
+    border: none;
+    border-radius: 3px;
+  }
+  .s2-container >div{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    padding: 10px;
+    
+    
+  }
+  .box-heading{
+    font-size: 20px;
+  }
+  p{
+    font-size: 14px;
+  }
+  .s3-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  .s4{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+  }
+  .s4-para{
+    color: pink;
+  }
+  .s4-img1{
+    position: relative;
+    top:30%;
+    width:200px;
+    height:200px;
+    border-radius: 10px;
+  }
+  .s4-img2{
+    position:relative;
+    left:5%;
+    width:170px;
+    height:170px;
+    border-radius: 10px;
+  }
+  .s4-img3{
+    position:relative;
+    top:80%;
+    right:68%;
+    width:190px;
+    height:190px;
+    border-radius: 10px;
+  }
+  .s4 >div{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    padding:10px;
+    }
+  .s5{
+    padding-top: 230px;
+  }
+  .s5-img{
+    border-radius: 10px;
+    height:60px;
+    width:60px;
+    
+  }
+  .s4-img{
+    display:flex;
+    flex-wrap: nowrap;
+
+  }
+  .column,.row{
+    border-radius: 10px;
+  }
+  span{
+    display:inline-block;
+  }
+  .s5-feed{
+    display: inline;
+  }
+  .footer{
+    background-color: black;
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    padding:15px;
+    align-content: space-around;
+  }
+  .f1{
+    padding-left: 180px;
+    color: white;
+    }
+    .f1 a{
+      color:white;
+    }
+  .f2{
+    padding-left: 200px;
+  }
+  .f3{
+    padding-left: 200px;
+    
+    
+  } 
+  .f-img{
+    margin-top: -25px;
+    padding-left: 20px;
+  }
+  .footer >div{
+    
+  }
+  .input2{
+    background-color:whitesmoke;
+    /* margin-left:10%; */
+    width:310px;
+    height:40px;
+    border-radius:10px;
+    margin-top: 10px;
+    padding: 5px;
+    padding-bottom: 7px;
+      }
+      #email-input1{
+        /* background-color: rgb(201, 201, 201);*/
+        color: black;
+        border-radius: 8px;
+        border:none;
+        height:35px;
+        width:240px;
+        background-color:whitesmoke;
+      }
+      #send-btn1{
+        background: #5d8ffc;
+        color: #fff;
+        border: 1px solid #5d8ffc;
+        border-radius: 5px;
+        padding: 2px;
+       
+        width: 54px;
+        height:30px;
+        transition: 0.1s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+      }
+      
+      #send-btn1:hover {
+        background: #fff;
+        color: #5d8ffc;
+        border: 1px solid #5d8ffc;
+        cursor: pointer;
+      }
+      
+  label.logo-end{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 10px;
+    font-weight: bold;
+  }
+  .img-fluid{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: all 1s;
+    align-content: center;
+    }
+    .s3-p{
+      margin: 10px;
+    }
+    .tooltip-1{
+      margin-top:50px ;
+    }
+    .tooltip-2{
+      margin-bottom: 50px;
+    }
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    .nav-bar{
+      padding-top: 0px;
+      margin-top: 0px;
+      position:fixed;
+    }
+    .s1{
+      padding-top: 90px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+    .tooltip-1{
+      margin:10px ;
+    }
+    .tooltip-2{
+      margin: 10px;
+    }
+    .f1{
+      padding-left:35px;
+    }
+    .f2{
+      padding-left:35px;
+      padding-top: 20px;
+    }
+    .f3{
+      padding-left:110px;
+      padding-top: 20px;
+    }
+
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: gray;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover{
+      background: none;
+      color: white;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+  
